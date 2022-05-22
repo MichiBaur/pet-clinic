@@ -37,9 +37,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=azure_voting_service
-  
-    - name: Compile, build and push
-      run: |
+      
         #### AUFGABE 3 DOCKER BUILD UND PUSH
           # an dieser Stelle wird die Aufgabe 3 bearbeitet: heroku login, docker build, docker push
         
