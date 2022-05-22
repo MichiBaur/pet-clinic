@@ -17,7 +17,7 @@
   <properties>
 
     
-    <sonar.organization>MichiBaur</sonar.organization>
+    <sonar.organization>michibaur</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
     <!-- Generic properties -->
