@@ -40,6 +40,7 @@ jobs:
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=MichiBaur_pet-clinic
 
 
+
         #### AUFGABE 3 DOCKER BUILD UND PUSH
           # an dieser Stelle wird die Aufgabe 3 bearbeitet: heroku login, docker build, docker push
         
