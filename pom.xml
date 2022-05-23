@@ -16,7 +16,6 @@
 
   <properties>
 
-    
     <sonar.organization>michibaur</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <!-- <sonar.projectKey>MichiBaur_pet-clinic</sonar.projectKey> -->
