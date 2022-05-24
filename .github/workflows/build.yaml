@@ -47,13 +47,13 @@ jobs:
       run: |
         heroku container:login 
         mvn package
-        docker build --tag registry.heroku.com/${APP_NAME}/web -f Dockerfile .
-        docker push registry.heroku.com/${APP_NAME}/web
+        docker build --tag registry.heroku.com/mitchb/web -f Dockerfile .
+        docker push registry.heroku.com/mitchb/web
     - name: Release
       run: |
         heroku container:login 
-        heroku stack:set container --app ${APP_NAME}
-        heroku container:release web --app ${APP_NAME}
+        heroku stack:set container --app mitchb
+        heroku container:release web --app mitchb
         
     - name: Release
       run: |
